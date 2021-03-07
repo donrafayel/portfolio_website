@@ -1,0 +1,1156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+p {
+  font-family: "Akaya Telivigala", cursive;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 0.3rem;
+}
+
+li {
+  padding: 0 0.4rem;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h1:hover {
+  color: darkred;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.headerone {
+  background: url("../dist/image/pexels-zukiman-mohamad-22185.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0.8rem;
+}
+
+.nav li {
+  font-size: 1.2rem;
+}
+
+li:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-bottom: 3px solid black;
+}
+
+li a:hover {
+  color: white;
+}
+
+.current {
+  color: darkred;
+}
+
+.hp {
+  text-align: center;
+  padding-top: 10rem;
+  padding-right: 10rem;
+}
+
+.hp h1 {
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.hp p {
+  font-size: 2rem;
+  padding-bottom: 1.7rem;
+}
+
+.button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: goldenrod;
+  padding: 0.8rem 1.3rem;
+  font-size: 1.8rem;
+  font-family: "Akaya Telivigala", cursive;
+  border-radius: 5px;
+}
+
+.button:hover {
+  font-size: 2rem;
+  color: black;
+  background-color: gold;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+/* section one */
+.seconddiv,
+h1,
+p,
+i {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.sectionone h1 {
+  font-size: 2rem;
+}
+
+.sectionone > h1 {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.sectionone > p {
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.seconddiv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  margin: 1rem, 0.5rem;
+  background-color: black;
+  font-size: 1.5rem;
+}
+
+.seconddiv div {
+  background-color: green;
+  padding: 2.5rem 1rem;
+  margin: 1rem 0.8rem;
+}
+
+.seconddiv div:hover {
+  color: green !important;
+  background-color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.seconddiv p {
+  padding: 0.6rem;
+}
+
+.sectionone .fas {
+  padding: 0.6rem 0;
+}
+
+/* section two */
+.thirddiv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
+  margin: 1rem 0.5rem;
+  padding: 1rem 7rem;
+}
+
+.thirddiv div {
+  background-color: maroon;
+  padding: 2rem 0;
+}
+
+.thirddiv div:hover {
+  background-color: black;
+  color: maroon;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+}
+
+/* section three */
+.sectionthree > h1 {
+  font-size: 3rem;
+}
+
+.sectionthree > p {
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.sectionthreediv {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  text-align: center;
+  margin: 1rem 0.5rem;
+}
+
+.step {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: chocolate;
+  border-radius: 50%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  font-size: 28px;
+  padding: 1rem;
+}
+
+#icon {
+  color: white;
+  background-color: black;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  padding: 2rem;
+  text-align: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#icon:hover {
+  background-color: chocolate;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+}
+
+.step:hover {
+  background-color: black;
+}
+
+.sectionthreediv div h1 {
+  margin-top: 1.3rem;
+}
+
+footer .rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 5rem;
+  color: white;
+  background-color: black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 5rem;
+  font-size: 1.3rem;
+}
+
+footer .rights .fab {
+  margin-right: 2rem;
+  padding: 0 0.6rem;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+
+footer .rights .social a {
+  color: white;
+  border-radius: 50%;
+}
+
+.aboutone {
+  background: url("../dist/image/pexels-zukiman-mohamad-22185.jpg") no-repeat center center/cover;
+  height: 5.3rem;
+}
+
+.bad {
+  font-size: 3.8rem;
+}
+
+.good {
+  font-size: 1.7rem;
+}
+
+.aboutsection {
+  background-color: #f6f6f6;
+}
+
+.aboutsection h1 {
+  font-size: 2.2rem;
+  padding: 1rem;
+}
+
+.aboutsection p {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.aboutsection .about-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  padding: 1rem;
+  margin: 0 10rem;
+  text-align: center;
+}
+
+.aboutsection img {
+  height: auto;
+  width: 400px;
+}
+
+.aboutsection .project {
+  background-color: thistle;
+  border-left: gold solid 3px;
+}
+
+.aboutsection .project:hover {
+  background-color: black;
+  color: thistle;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.award-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  text-align: center;
+  margin: 0 11rem;
+  padding: 1rem;
+  background-color: black;
+}
+
+.award-div div {
+  color: black;
+  background-color: darkgreen;
+  padding-top: 1rem;
+}
+
+.award-div div:hover {
+  background-color: black;
+  color: darkgreen;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section-three {
+  background-color: black;
+  color: white;
+  padding: 0 11.3rem;
+  padding-bottom: 1.7rem;
+}
+
+.section-three h1 {
+  padding: 1rem;
+}
+
+.section-three .tecnical-div .progress {
+  overflow: hidden;
+  height: 20px;
+  margin-top: 0.6rem;
+  border-radius: 5px;
+  background: grey;
+}
+
+.section-three .tecnical-div .progress div {
+  height: 100%;
+  color: white;
+  background-color: gold;
+  text-align: center;
+}
+
+.section-four {
+  background-color: whitesmoke;
+}
+
+.section-four .four-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+  margin-left: 9rem;
+}
+
+.section-five > h1 {
+  font-size: 3rem;
+}
+
+.section-five > p {
+  font-size: 1.5rem;
+}
+
+.section-five .five-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.7rem;
+  padding: 1rem;
+}
+
+.section-five .five-div ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+}
+
+.section-five .five-div p {
+  border: grey solid 2px;
+  border-radius: 5px;
+}
+
+.section-five .five-div img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.worksection h1 {
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
+
+.worksection .check-out {
+  font-size: 1.3rem;
+  padding: 0.5rem;
+}
+
+.gallery {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  margin-left: 1rem;
+}
+
+.item {
+  position: relative;
+  background-color: gold;
+  overflow: hidden;
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: inherit;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+          transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+  -webkit-transition: 3s cubic-bezier(0.2, 1, 0.3, 1);
+  transition: 3s cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.item:hover::after {
+  -webkit-transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+          transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+}
+
+.item:hover .item-image {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.item:hover .item-text {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.item-image {
+  height: auto;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  display: block;
+  -webkit-transition: -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+  transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.item-image:before {
+  content: "";
+  display: block;
+  padding-top: 75%;
+  overflow: hidden;
+}
+
+.item-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  line-height: 0;
+}
+
+.item-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  text-align: center;
+  z-index: 1;
+  color: #ffffff;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  -webkit-transition: opacity 500ms cubic-bezier(0.2 1 0.3 1), -webkit-transform 500ms cubic-bezier(0.2 1 0.3 1);
+  transition: opacity 500ms cubic-bezier(0.2 1 0.3 1), -webkit-transform 500ms cubic-bezier(0.2 1 0.3 1);
+  transition: opacity 500ms cubic-bezier(0.2 1 0.3 1), transform 500ms cubic-bezier(0.2 1 0.3 1);
+  transition: opacity 500ms cubic-bezier(0.2 1 0.3 1), transform 500ms cubic-bezier(0.2 1 0.3 1), -webkit-transform 500ms cubic-bezier(0.2 1 0.3 1);
+  -webkit-transition-delay: 400ms;
+          transition-delay: 400ms;
+}
+
+.item-text-wrap {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.item-text-title {
+  font-size: 2.4rem;
+  padding: 0 1rem;
+  margin: 5px 0 0 0;
+  color: white;
+}
+
+.item-text-category {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.item .the-end {
+  height: 100% !important;
+}
+
+.contact-section > div h1 {
+  font-size: 3rem;
+}
+
+.contact-section > div p {
+  font-size: 1.4rem;
+}
+
+.contact-section .form-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  padding: 0.4rem;
+  margin: 0 20rem;
+}
+
+.contact-section input {
+  padding: 0.5rem 0.2rem;
+  border: gray solid 2px;
+  font-size: 1.2rem;
+}
+
+.contact-section .message {
+  padding: 1rem 0.3rem;
+  font-size: 1.2rem;
+}
+
+.contact-section .text-area {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin: 0 20rem;
+  padding: 1rem 0;
+}
+
+.contact-section button {
+  font-size: 3rem;
+  color: maroon;
+  background-color: black;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.contact-section button:hover {
+  color: black;
+  background-color: maroon;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.last-section .last-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  padding: 2rem 8rem 6rem 8rem;
+}
+
+.last-section .last-div .column {
+  border-right: white solid 2px;
+}
+
+.last-section p {
+  font-size: 1.2rem;
+}
+
+.last-section p:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.project {
+  background-color: gold;
+  padding: 5rem 0;
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.project:hover {
+  color: darkred;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 1100px) {
+  .aboutsection .about-div {
+    margin: 0 7rem;
+    grid-gap: 0.5rem;
+  }
+  .aboutsection .project h1 {
+    font-size: 2rem;
+  }
+  .aboutsection .project p {
+    font-size: 1.4rem;
+  }
+  .award-div {
+    margin: 0 7.7rem;
+  }
+  .section-four .four-div {
+    margin-left: 6rem;
+  }
+  .contact-section .form-div {
+    margin: 0 7rem;
+  }
+  .contact-section .text-area {
+    margin: 0 7rem;
+  }
+  .last-section .last-div {
+    padding: 2rem 6rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .hp {
+    padding-top: 17rem;
+  }
+  .seconddiv div {
+    margin: 0.4rem 0.5rem 0.1rem 0.5rem;
+  }
+  .thirddiv {
+    grid-gap: 1rem;
+    padding: 0.5rem;
+  }
+  .sectionthree > p {
+    font-size: 1.2rem;
+  }
+  .aboutsection .about-div {
+    margin: 0 1rem;
+  }
+  .aboutsection img {
+    height: auto;
+    width: 330px;
+  }
+  .aboutsection .project h1 {
+    font-size: 2rem;
+  }
+  .aboutsection .project p {
+    font-size: 1.8rem;
+  }
+  .award-div {
+    margin: 0 1rem;
+    grid-gap: 0.7rem;
+    padding: 0.7rem;
+  }
+  .section-three {
+    padding: 0 3rem 1.2rem 3rem;
+  }
+  .section-three h1 {
+    padding: 0.1rem;
+  }
+  .section-four .four-div {
+    margin-left: 3.5rem;
+  }
+  .section-five > h1 {
+    font-size: 2.5rem;
+  }
+  .section-five > p {
+    font-size: 1.5rem;
+  }
+  footer .rights {
+    padding: 0 2rem;
+  }
+  footer .rights .fab {
+    padding: 0 0.1rem;
+  }
+  .worksection .check-out {
+    font-size: 1.8rem;
+  }
+  .contact-section .form-div {
+    margin: 0 4rem;
+  }
+  .contact-section .text-area {
+    margin: 0 4rem;
+  }
+  .last-section .last-div {
+    grid-gap: 1rem;
+    padding: 2rem 3rem;
+  }
+  .project {
+    padding: 3rem 0;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 511px) and (max-width: 767px) {
+  .nav li {
+    padding: 0.7rem 0.4rem 0 0.4rem;
+  }
+  .hp {
+    padding-top: 10rem;
+    padding-right: 7rem;
+  }
+  .sectionone > p {
+    font-size: 1rem;
+  }
+  .seconddiv h1 {
+    font-size: 1.3rem;
+  }
+  .seconddiv p {
+    font-size: 1rem;
+  }
+  .seconddiv div {
+    padding: 0;
+    margin: 0.2rem 0.2rem 0 0.2rem;
+  }
+  .thirddiv {
+    grid-gap: 0.4rem;
+    padding: 0.8rem;
+  }
+  div h2,
+  div h3 {
+    font-size: 1rem;
+  }
+  .step {
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+    font-size: 17px;
+    padding: 0.5rem;
+  }
+  #icon {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    padding: 1rem;
+  }
+  #icon:hover {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  footer .rights {
+    padding: 0 0.7rem;
+    font-size: 1rem;
+  }
+  footer .rights .fab {
+    margin-right: 0.4rem;
+    padding: 0 0.4rem;
+    height: 10px;
+    width: 10px;
+  }
+  .aboutsection .about-div {
+    margin: 0 1rem;
+  }
+  .aboutsection img {
+    height: auto;
+    width: 180px;
+  }
+  .aboutsection .project {
+    margin: 0;
+  }
+  .aboutsection .project h1 {
+    font-size: 1.3rem;
+    padding: 0 0.3rem;
+    margin: 0;
+  }
+  .aboutsection .project p {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    margin: 0;
+  }
+  .award-div {
+    grid-gap: 0.3rem;
+    margin: 0;
+    padding: 0.5rem 0.3rem;
+  }
+  .award-div h1 {
+    font-size: 1rem;
+  }
+  .section-three {
+    padding: 0 2.5rem 1.6rem 2.5rem;
+  }
+  h1 {
+    padding: 0;
+  }
+  .section-four .four-div {
+    padding: 1rem 1rem;
+    margin-left: 0.5rem;
+  }
+  .section-five .five-div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.7rem;
+    padding: 1rem;
+  }
+  .section-five .five-div p {
+    font-size: 1.1rem;
+  }
+  .item-text-title {
+    font-size: 1rem;
+  }
+  .item-text-category {
+    font-size: 1rem;
+  }
+  .contact-section .form-div {
+    margin: 0 3rem;
+  }
+  .contact-section .form-div input {
+    font-size: 1rem;
+  }
+  .contact-section .text-area {
+    padding: 0.5rem;
+    margin: 0 3rem;
+  }
+  .contact-section .message {
+    padding: 0.9rem 0.3rem 0 0.3rem;
+    font-size: 1rem;
+  }
+  .contact-section button {
+    font-size: 1.6rem;
+    padding: 0.3rem 0;
+    margin-top: 0.5rem;
+  }
+  .last-section .last-div {
+    padding: 1rem;
+  }
+  .last-section h1 {
+    font-size: 1.3rem;
+  }
+  .last-section p {
+    font-size: 1rem;
+  }
+  .project {
+    padding: 3rem 0;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 510px) {
+  .headerone {
+    height: 65vh;
+  }
+  .headerone .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .headerone .nav li {
+    padding: 0 0.4rem;
+    padding-bottom: 0.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .headerone .hp {
+    padding-top: 1rem;
+    padding-right: 3rem;
+  }
+  .headerone .hp h1 {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+  }
+  .headerone .hp p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+  .headerone .button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.2rem;
+    font-family: "Akaya Telivigala", cursive;
+    border-radius: 5px;
+  }
+  .headerone .button:hover {
+    font-size: 1.4rem;
+  }
+  .sectionone > h1 {
+    font-size: 1.7rem;
+    padding: 0.5rem;
+  }
+  .sectionone > p {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .seconddiv {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .seconddiv div {
+    margin: 0.5rem;
+  }
+  .thirddiv {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.8rem;
+    margin: 0.5rem;
+    padding: 0;
+  }
+  .sectionthree > h1 {
+    font-size: 2rem;
+  }
+  .sectionthreediv {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  footer .rights {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.5rem 1rem 0 1rem;
+    font-size: 1rem;
+  }
+  footer .rights .fab {
+    margin-right: 0;
+    padding: 0 0.6rem 1.5rem 0.6rem;
+  }
+  .aboutone {
+    height: 6.5rem;
+  }
+  .aboutsection > h1 {
+    padding: 0.3rem;
+  }
+  .aboutsection > p {
+    padding: 0.3rem;
+    font-size: 1.2rem;
+  }
+  .aboutsection .about-div {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+    margin: 0;
+  }
+  .aboutsection img {
+    height: auto;
+    width: 100%;
+  }
+  .aboutsection .project h1 {
+    padding: 0;
+    margin: 0;
+  }
+  .aboutsection .project p {
+    padding: 0 0.7rem;
+    margin: 0;
+  }
+  .award-div {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  .section-three {
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+  }
+  .section-three h1 {
+    padding: 0.5rem;
+  }
+  .section-three .tecnical-div h3 {
+    font-size: 1rem;
+  }
+  .section-three .tecnical-div .progress {
+    height: 15px;
+    margin-top: 0.1rem;
+    margin-bottom: 0.4rem;
+  }
+  .section-four .four-div {
+    margin-left: 0;
+    padding: 0.5rem 0;
+  }
+  .section-five .five-div {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+    padding: 0.5rem;
+  }
+  .section-five .five-div ul {
+    margin-top: 0.3rem;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    text-align: center;
+  }
+  .section-five .five-div li {
+    font-family: "Akaya Telivigala", cursive;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.2rem;
+  }
+  .section-five .five-div p {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+  }
+  .item-text-title {
+    font-size: 0.8rem;
+  }
+  .item-text-category {
+    font-size: 0.5rem;
+  }
+  .contact-section .form-div {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0.5rem;
+    margin: 1rem;
+  }
+  .contact-section .text-area {
+    padding: 0.5rem;
+    margin: 1rem;
+  }
+  .contact-section .message {
+    padding: 0.3rem 0.3rem 0 0.3rem;
+  }
+  .contact-section button {
+    font-size: 1.4rem;
+    padding: 0.3rem 0;
+    margin-top: 0.5rem;
+  }
+  .last-section .last-div {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
+  .last-section .last-div div {
+    padding: 1rem 0.5rem;
+  }
+  .last-section .last-div .column {
+    border-bottom: white solid 2px;
+  }
+  .last-section h1 {
+    font-size: 1.3rem;
+  }
+  .last-section p {
+    font-size: 1rem;
+  }
+  .project {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 500px) {
+  #hp {
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 0;
+    padding-right: 4rem;
+  }
+  #hp h1 {
+    font-size: 1.7rem;
+    padding-bottom: 0.5rem;
+  }
+  #hp p {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+}
